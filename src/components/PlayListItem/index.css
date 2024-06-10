@@ -1,0 +1,38 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 10px;
+}
+
+.img-container {
+  display: flex;
+  width: 30vw;
+}
+.delete-container {
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 15vw;
+  height: 10vw;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+.genre {
+  color: #3b82f6;
+}
+.button {
+  margin-left: 20px;
+  height: 36px;
+  width: 72px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
